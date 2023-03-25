@@ -46,6 +46,16 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas: 
+        "pop pop pop pop pizza pizza pizza pizza"
+        "pop pop pop pop pizza pizza pizza pizza"
+        "pop pop pop pop pizza pizza pizza pizza"
+        "pop pop pop pop pizza pizza pizza pizza";
+    }
+
+    .item3 {
+      grid-column: pop-start / pizza-end;
+      grid-row-end: pop-end
     }
   </style>
 </body>
